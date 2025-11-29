@@ -51,6 +51,11 @@ A rich-feature Discord bot with Anime capabilities, supporting both Slash Comman
 | **Loop** | `/loop <mode>` | `!loop <mode>` | Loop track/queue |
 | **Pause** | `/pause` | `!pause` | Pause music |
 | **Resume** | `/resume` | `!resume` | Resume music |
+| **Now Playing** | `/nowplaying` | `!nowplaying` | Show current song |
+| **Remove** | `/remove <pos>` | `!remove <pos>` | Remove song |
+| **Move** | `/move <from> <to>` | `!move <from> <to>` | Move song |
+| **Clear Queue** | `/clearqueue` | `!clearqueue` | Clear queue |
+| **Volume** | `/volume <level>` | `!volume <level>` | Set volume (0-100) |
 | **Kick** | `/kick <user>` | `!kick <user>` | Kick user |
 | **Ban** | `/ban <user>` | `!ban <user>` | Ban user |
 | **Timeout** | `/timeout <user> <time>` | `!timeout <user> <time>` | Timeout user |

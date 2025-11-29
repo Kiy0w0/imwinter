@@ -121,6 +121,11 @@ async function sendHelpMenu(context) {
                     { name: '`/loop <mode>`', value: 'Loop track/queue/off', inline: true },
                     { name: '`/pause`', value: 'Pause music', inline: true },
                     { name: '`/resume`', value: 'Resume music', inline: true },
+                    { name: '`/nowplaying`', value: 'Show current song', inline: true },
+                    { name: '`/remove <pos>`', value: 'Remove song from queue', inline: true },
+                    { name: '`/move <from> <to>`', value: 'Move song position', inline: true },
+                    { name: '`/clearqueue`', value: 'Clear music queue', inline: true },
+                    { name: '`/volume <level>`', value: 'Set volume (0-100)', inline: true },
                 );
         } else if (value === 'anime') {
             newEmbed.setTitle('🌸 Anime Commands')
